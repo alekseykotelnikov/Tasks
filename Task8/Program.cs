@@ -1,12 +1,12 @@
 ﻿// Все целые числа диапозона
 int count = 0;
-int number = 1;
-while(count < 20)
+int lastNumber = 1;
+while(count < lastNumber)
 {
-    if(number % 2 == 0)
+    if(lastNumber % 2 == 0)
     {
-        Console.WriteLine(number);
+        Console.WriteLine(lastNumber);
     }
     count++;
-    number++;
+    lastNumber++;
 }
