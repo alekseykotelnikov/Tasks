@@ -1,0 +1,15 @@
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\obj\Debug\net6.0\Task15CheckIfModed.csproj.AssemblyReference.cache
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\obj\Debug\net6.0\Task15CheckIfModed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\obj\Debug\net6.0\Task15CheckIfModed.AssemblyInfoInputs.cache
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\obj\Debug\net6.0\Task15CheckIfModed.AssemblyInfo.cs
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\obj\Debug\net6.0\Task15CheckIfModed.csproj.CoreCompileInputs.cache
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\bin\Debug\net6.0\Task15CheckIfModed.exe
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\bin\Debug\net6.0\Task15CheckIfModed.deps.json
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\bin\Debug\net6.0\Task15CheckIfModed.runtimeconfig.json
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\bin\Debug\net6.0\Task15CheckIfModed.dll
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\bin\Debug\net6.0\ref\Task15CheckIfModed.dll
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\bin\Debug\net6.0\Task15CheckIfModed.pdb
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\obj\Debug\net6.0\Task15CheckIfModed.dll
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\obj\Debug\net6.0\ref\Task15CheckIfModed.dll
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\obj\Debug\net6.0\Task15CheckIfModed.pdb
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task15CheckIfModed\obj\Debug\net6.0\Task15CheckIfModed.genruntimeconfig.cache
