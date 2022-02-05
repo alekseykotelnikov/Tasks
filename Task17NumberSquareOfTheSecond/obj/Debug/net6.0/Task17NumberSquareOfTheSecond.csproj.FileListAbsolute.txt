@@ -1,0 +1,15 @@
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\bin\Debug\net6.0\Task17NumberSquareOfTheSecond.exe
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\bin\Debug\net6.0\Task17NumberSquareOfTheSecond.deps.json
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\bin\Debug\net6.0\Task17NumberSquareOfTheSecond.runtimeconfig.json
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\bin\Debug\net6.0\Task17NumberSquareOfTheSecond.dll
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\bin\Debug\net6.0\ref\Task17NumberSquareOfTheSecond.dll
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\bin\Debug\net6.0\Task17NumberSquareOfTheSecond.pdb
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\obj\Debug\net6.0\Task17NumberSquareOfTheSecond.csproj.AssemblyReference.cache
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\obj\Debug\net6.0\Task17NumberSquareOfTheSecond.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\obj\Debug\net6.0\Task17NumberSquareOfTheSecond.AssemblyInfoInputs.cache
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\obj\Debug\net6.0\Task17NumberSquareOfTheSecond.AssemblyInfo.cs
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\obj\Debug\net6.0\Task17NumberSquareOfTheSecond.csproj.CoreCompileInputs.cache
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\obj\Debug\net6.0\Task17NumberSquareOfTheSecond.dll
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\obj\Debug\net6.0\ref\Task17NumberSquareOfTheSecond.dll
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\obj\Debug\net6.0\Task17NumberSquareOfTheSecond.pdb
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task17NumberSquareOfTheSecond\obj\Debug\net6.0\Task17NumberSquareOfTheSecond.genruntimeconfig.cache
