@@ -1,0 +1,15 @@
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\obj\Debug\net6.0\Task16WeekEnd.csproj.AssemblyReference.cache
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\obj\Debug\net6.0\Task16WeekEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\obj\Debug\net6.0\Task16WeekEnd.AssemblyInfoInputs.cache
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\obj\Debug\net6.0\Task16WeekEnd.AssemblyInfo.cs
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\obj\Debug\net6.0\Task16WeekEnd.csproj.CoreCompileInputs.cache
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\bin\Debug\net6.0\Task16WeekEnd.exe
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\bin\Debug\net6.0\Task16WeekEnd.deps.json
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\bin\Debug\net6.0\Task16WeekEnd.runtimeconfig.json
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\bin\Debug\net6.0\Task16WeekEnd.dll
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\bin\Debug\net6.0\ref\Task16WeekEnd.dll
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\bin\Debug\net6.0\Task16WeekEnd.pdb
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\obj\Debug\net6.0\Task16WeekEnd.dll
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\obj\Debug\net6.0\ref\Task16WeekEnd.dll
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\obj\Debug\net6.0\Task16WeekEnd.pdb
+C:\Users\bulochka\Desktop\TaskHome\Tasks\Task16WeekEnd\obj\Debug\net6.0\Task16WeekEnd.genruntimeconfig.cache
