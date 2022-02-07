@@ -12,7 +12,7 @@ while (index < n)
     }
     else
     {
-        int findThirdDigit = array[index] % 10;
+        int findThirdDigit = array[index] / 100;
 
         if (findThirdDigit < 0)
         {
