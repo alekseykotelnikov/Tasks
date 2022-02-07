@@ -1,20 +1,26 @@
 ﻿// Проверить истинность утверждения ¬(X ⋁ Y) = ¬X ⋀ ¬Y
-void Umnojenie (int arg1, int arg2)
+
+// ¬ - перевернуть значениеж;
+// X ⋁ Y - умножение выражений;
+//X ⋀ Y - сложение выражений;
+
+
+void Umnojenie()
 {
-    for (arg1 = 1; arg1 >= 0; arg1--)
+    for (int arg1 = 1; arg1 >= 0; arg1--)
     {
-        for (arg2 = 1; arg2 >= 0; arg2--)
+        for (int arg2 = 1; arg2 >= 0; arg2--)
         {
             Console.Write(arg1 * arg2);
         }
     }
 }
 
-void Sum (int arg1, int arg2)
+void Sum()
 {
-    for (arg1 = 0; arg1 <= 1; arg1++)
-    {
-        for (arg2 = 0; arg2 <= 1; arg2++)
+    for (int arg1 = 0; arg1 <= 1; arg1++)
+
+        for (int arg2 = 0; arg2 <= 1; arg2++)
         {
             int result = arg1 + arg2;
             if (result == 0)
@@ -26,14 +32,15 @@ void Sum (int arg1, int arg2)
                 Console.Write("0");
             }
         }
-    }
 }
 
+
 Console.WriteLine("Значение слева от знака \"=\", будет следующим: ");
-Sum (0, 0);
+Sum();
 Console.WriteLine();
 
 Console.WriteLine("Значение справа от знака \"=\", будет следующим: ");
-Umnojenie (1, 1);
+Umnojenie();
 Console.WriteLine();
+
 Console.WriteLine("Утверждение истинно");
