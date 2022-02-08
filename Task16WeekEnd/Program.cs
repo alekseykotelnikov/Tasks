@@ -11,12 +11,12 @@ bool Weekend(int number)
 {
     return randomNumber > 5;
 }
-
+string [] nameDay = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
 if (Weekend(randomNumber))
 {
-    Console.WriteLine($"Номер дня недели {randomNumber} является выходным");
+    Console.WriteLine($"День {nameDay[randomNumber - 1]} под цифрой {randomNumber} является выходным");
 }
 else
 {
-    Console.WriteLine($"Номер дня недели {randomNumber} является не выходным");
+    Console.WriteLine($"День {nameDay[randomNumber - 1]} под цифрой {randomNumber} не является выходным");
 }

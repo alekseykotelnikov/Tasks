@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bulochka\\Desktop\\TaskHome\\Tasks\\Task16WeekEnd\\Task16WeekEnd.csproj": {}
+    "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task16WeekEnd\\Task16WeekEnd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bulochka\\Desktop\\TaskHome\\Tasks\\Task16WeekEnd\\Task16WeekEnd.csproj": {
+    "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task16WeekEnd\\Task16WeekEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bulochka\\Desktop\\TaskHome\\Tasks\\Task16WeekEnd\\Task16WeekEnd.csproj",
+        "projectUniqueName": "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task16WeekEnd\\Task16WeekEnd.csproj",
         "projectName": "Task16WeekEnd",
-        "projectPath": "C:\\Users\\bulochka\\Desktop\\TaskHome\\Tasks\\Task16WeekEnd\\Task16WeekEnd.csproj",
+        "projectPath": "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task16WeekEnd\\Task16WeekEnd.csproj",
         "packagesPath": "C:\\Users\\bulochka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bulochka\\Desktop\\TaskHome\\Tasks\\Task16WeekEnd\\obj\\",
+        "outputPath": "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task16WeekEnd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bulochka\\AppData\\Roaming\\NuGet\\NuGet.Config"
