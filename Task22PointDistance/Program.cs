@@ -5,7 +5,7 @@ double Coards(double arg)
     return new Random().Next(1, 10);
 }
 
-double Sum (double first, double second)
+double Sum(double first, double second)
 {
     double sum = (second - first) * (second - first);
     return sum;
@@ -51,5 +51,5 @@ double distanceX = Sum(x1, x2);
 double distanceY = Sum(y1, y2);
 double distanceZ = Sum(z1, z2);
 
-double finallDistance = Math.Sqrt( distanceX + distanceY + distanceZ);
+double finallDistance = Math.Sqrt(distanceX + distanceY + distanceZ);
 Console.WriteLine($"Расстояние между точками = {finallDistance}");
