@@ -1,12 +1,18 @@
-﻿// Все целые числа диапозона
-int count = 0;
-int lastNumber = 1;
-while(count < lastNumber)
+﻿// Показать четные числа от 1 до N
+
+Console.Write("Введите предельное число ");
+string numberStr = Console.ReadLine();
+if (int.TryParse(numberStr, out int numberInt))
 {
-    if(lastNumber % 2 == 0)
+    for (int i = 1; i < numberInt; i++)
     {
-        Console.WriteLine(lastNumber);
+        if (i % 2 == 0)
+        {
+            Console.WriteLine($"Четное число от 1 до {numberInt}, это {i}");
+        }
     }
-    count++;
-    lastNumber++;
+}
+else
+{
+    Console.WriteLine("Введите  ");
 }
