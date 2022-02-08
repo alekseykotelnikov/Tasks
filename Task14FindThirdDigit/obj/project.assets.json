@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bulochka\\Desktop\\TaskHome\\Tasks\\Task14FindThirdDigit\\Task14FindThirdDigit.csproj",
+      "projectUniqueName": "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task14FindThirdDigit\\Task14FindThirdDigit.csproj",
       "projectName": "Task14FindThirdDigit",
-      "projectPath": "C:\\Users\\bulochka\\Desktop\\TaskHome\\Tasks\\Task14FindThirdDigit\\Task14FindThirdDigit.csproj",
+      "projectPath": "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task14FindThirdDigit\\Task14FindThirdDigit.csproj",
       "packagesPath": "C:\\Users\\bulochka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bulochka\\Desktop\\TaskHome\\Tasks\\Task14FindThirdDigit\\obj\\",
+      "outputPath": "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task14FindThirdDigit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bulochka\\AppData\\Roaming\\NuGet\\NuGet.Config"
