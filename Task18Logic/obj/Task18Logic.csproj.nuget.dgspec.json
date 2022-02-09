@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task18Logic\\Task18Logic.csproj": {}
+    "C:\\Users\\Технолог-1\\Desktop\\Tasks\\Tasks\\Task18Logic\\Task18Logic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task18Logic\\Task18Logic.csproj": {
+    "C:\\Users\\Технолог-1\\Desktop\\Tasks\\Tasks\\Task18Logic\\Task18Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task18Logic\\Task18Logic.csproj",
+        "projectUniqueName": "C:\\Users\\Технолог-1\\Desktop\\Tasks\\Tasks\\Task18Logic\\Task18Logic.csproj",
         "projectName": "Task18Logic",
-        "projectPath": "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task18Logic\\Task18Logic.csproj",
-        "packagesPath": "C:\\Users\\bulochka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task18Logic\\obj\\",
+        "projectPath": "C:\\Users\\Технолог-1\\Desktop\\Tasks\\Tasks\\Task18Logic\\Task18Logic.csproj",
+        "packagesPath": "C:\\Users\\Технолог-1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Технолог-1\\Desktop\\Tasks\\Tasks\\Task18Logic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bulochka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Технолог-1\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
