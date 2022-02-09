@@ -11,11 +11,6 @@ double Coards(double arg)
     return num;
 }
 
-double Long(double first, double second)
-{
-    double longFirst = (second - first) * (second - first);
-    return longFirst;
-}
 // Получаем значения для координат из рандома
 
 double x1 = Coards(num);
@@ -53,13 +48,7 @@ if (z1 > z2)
 
 Console.WriteLine($"Координата x1={x1}, x2={x2}, y1={y1}, y2={y2}, z1={z1}, z2={z2}");
 
-// Вычисляем длинну на каждой из осей
-
-double distanceX = Long(x1, x2);
-double distanceY = Long(y1, y2);
-double distanceZ = Long(z1, z2);
-
 // высичляем корень из суммы всех длин
 
-double finallDistance = Math.Sqrt(distanceX + distanceY + distanceZ);
+double finallDistance = Math.Sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)) + ((z2 - z1) * (z2 - z1)));
 Console.WriteLine($"Расстояние между точками = {finallDistance}");
