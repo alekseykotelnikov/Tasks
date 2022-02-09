@@ -15,24 +15,27 @@ while (coordY == 0)
     string numberStr = Console.ReadLine();
     int.TryParse(numberStr, out coordY);
 }
-
-if (coordX > 0 && coordY > 0)
+void Result(int coordX, int coordY)
 {
-    quater = "I";
-    Console.Write($"Четверть плоскости точки с координатами x = {coordX}; y= {coordY} будет {quater} ");
+    if (coordX > 0 && coordY > 0)
+    {
+        quater = "I";
+        Console.Write($"Четверть плоскости точки с координатами x = {coordX}; y= {coordY} будет {quater} ");
+    }
+    else if (coordX < 0 && coordY > 0)
+    {
+        quater = "II";
+        Console.Write($"Четверть плоскости точки с координатами x = {coordX}; y= {coordY} будет {quater} ");
+    }
+    else if (coordX < 0 && coordY < 0)
+    {
+        quater = "III";
+        Console.Write($"Четверть плоскости точки с координатами x = {coordX}; y= {coordY} будет {quater} ");
+    }
+    else if (coordX > 0 && coordY < 0)
+    {
+        quater = "IV";
+        Console.Write($"Четверть плоскости точки с координатами x = {coordX}; y= {coordY} будет {quater} ");
+    }
 }
-if (coordX < 0 && coordY > 0)
-{
-    quater = "II";
-    Console.Write($"Четверть плоскости точки с координатами x = {coordX}; y= {coordY} будет {quater} ");
-}
-if (coordX < 0 && coordY < 0)
-{
-    quater = "III";
-    Console.Write($"Четверть плоскости точки с координатами x = {coordX}; y= {coordY} будет {quater} ");
-}
-if (coordX > 0 && coordY < 0)
-{
-    quater = "IV";
-    Console.Write($"Четверть плоскости точки с координатами x = {coordX}; y= {coordY} будет {quater} ");
-}
+Result(coordX, coordY);
