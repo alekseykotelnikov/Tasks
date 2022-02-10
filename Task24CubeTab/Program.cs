@@ -1,13 +1,5 @@
 ﻿// Найти кубы чисел от 1 до N
-
 int numberN = 0;
-while (numberN == 0)
-{
-    Console.Write("Введите предельное число от 1 ");
-    string numberStr = Console.ReadLine();
-    int.TryParse(numberStr, out numberN);
-}
-Console.WriteLine($"Кубы чисел от 1 до {numberN} следующие:");
 int[] GetCubeTab(int number)
 {
     int[] array = new int[numberN + 1];
@@ -26,6 +18,14 @@ void PrintArray(int[] argarray)
         Console.WriteLine(argarray[i]);
     }
 }
+
+while (numberN == 0)
+{
+    Console.Write("Введите предельное число от 1 ");
+    string numberStr = Console.ReadLine();
+    int.TryParse(numberStr, out numberN);
+}
+Console.WriteLine($"Кубы чисел от 1 до {numberN} следующие:");
 
 int[] array = GetCubeTab(numberN);
 PrintArray(array);
