@@ -1,22 +1,32 @@
 ﻿// Задать номер четверти, показать диапазоны для возможных координат
 
-int quaterNumber = new Random() .Next(1, 5);
+int quaterNumberInt = new Random().Next(1, 5);
+Console.WriteLine($"Задана четверть номер {quaterNumberInt}");
 string range = " ";
-if (quaterNumber == 1)
-{
-    range = "x > 0; y > 0";
-}
-if (quaterNumber == 2)
-{
-    range = "x < 0; y > 0";
-}
-if (quaterNumber == 3)
-{
-    range = "x < 0; y < 0";
-}
-if (quaterNumber == 4)
-{
-    range = "x > 0; y < 0";
-}
+string quaterNumberStr = " ";
 
-Console.WriteLine($"Четверть номер {quaterNumber} имеет следующий диапазон для х и у: {range} ");
+void QuaterNumber(int number)
+{
+    if (quaterNumberInt == 1)
+    {
+        quaterNumberStr = "I";
+        range = "x > 0; y > 0";
+    }
+    if (quaterNumberInt == 2)
+    {
+        quaterNumberStr = "II";
+        range = "x < 0; y > 0";
+    }
+    if (quaterNumberInt == 3)
+    {
+        quaterNumberStr = "III";
+        range = "x < 0; y < 0";
+    }
+    if (quaterNumberInt == 4)
+    {
+        quaterNumberStr = "IV";
+        range = "x > 0; y < 0";
+    }
+}
+QuaterNumber(quaterNumberInt);
+Console.WriteLine($"Четверть номер {quaterNumberStr} имеет следующий диапазон для х и у: {range} ");
