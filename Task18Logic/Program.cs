@@ -15,11 +15,11 @@ void ConInverseXInverseY()
         {
             if (arg1 * arg2 == 1)
             {
-                Console.WriteLine("True");
+                Console.WriteLine("True  1");
             }
             else
             {
-                Console.WriteLine("False");
+                Console.WriteLine("False 0");
             }
         }
     }
@@ -36,11 +36,11 @@ void InverseDiz()
             int result = arg1 + arg2;
             if (result == 0)
             {
-                Console.WriteLine("True");
+                Console.WriteLine("True  1");
             }
             else
             {
-                Console.WriteLine("False");
+                Console.WriteLine("False 0");
             }
         }
 }
