@@ -7,7 +7,7 @@ while (numberN == 0)
     string numberStr = Console.ReadLine();
     int.TryParse(numberStr, out numberN);
 }
-
+Console.WriteLine($"Кубы чисел от 1 до {numberN} следующие:");
 int[] GetCubeTab(int number)
 {
     int[] array = new int[numberN + 1];
