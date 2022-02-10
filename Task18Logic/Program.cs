@@ -7,20 +7,27 @@
 // Вычисляем значения правой части выражения
 // Учитывая отрицание (инверсию)
 
-void Umnojenie()
+void ConInverseXInverseY()
 {
     for (int arg1 = 1; arg1 >= 0; arg1--)
     {
         for (int arg2 = 1; arg2 >= 0; arg2--)
         {
-            Console.Write(arg1 * arg2);
+            if (arg1 * arg2 == 1)
+            {
+                Console.WriteLine("True");
+            }
+            else
+            {
+                Console.WriteLine("False");
+            }
         }
     }
 }
 
 // Производим операцию слева от знака равно, затем делаем отрицание (инверсию)
 
-void Sum()
+void InverseDiz()
 {
     for (int arg1 = 0; arg1 <= 1; arg1++)
 
@@ -29,22 +36,22 @@ void Sum()
             int result = arg1 + arg2;
             if (result == 0)
             {
-                Console.Write("1");
+                Console.WriteLine("True");
             }
             else
             {
-                Console.Write("0");
+                Console.WriteLine("False");
             }
         }
 }
 
 
-Console.WriteLine("Значение слева от знака \"=\", будет следующим: ");
-Sum();
+Console.WriteLine("Значение слева от знака \"=\" (Отрицание дизъюнкции двух выражений), будет следующим: ");
+InverseDiz();
 Console.WriteLine();
 
-Console.WriteLine("Значение справа от знака \"=\", будет следующим: ");
-Umnojenie();
+Console.WriteLine("Значение справа от знака \"=\" (Конъюнкция отрицания первого и отрицания второго выражений), будет следующим: ");
+ConInverseXInverseY();
 Console.WriteLine();
 
 Console.WriteLine("Утверждение истинно");

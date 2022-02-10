@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Технолог-1\\Desktop\\Tasks\\Tasks\\Task18Logic\\Task18Logic.csproj",
+      "projectUniqueName": "C:\\Users\\Технолог-1\\Desktop\\new\\Tasks\\Task18Logic\\Task18Logic.csproj",
       "projectName": "Task18Logic",
-      "projectPath": "C:\\Users\\Технолог-1\\Desktop\\Tasks\\Tasks\\Task18Logic\\Task18Logic.csproj",
+      "projectPath": "C:\\Users\\Технолог-1\\Desktop\\new\\Tasks\\Task18Logic\\Task18Logic.csproj",
       "packagesPath": "C:\\Users\\Технолог-1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Технолог-1\\Desktop\\Tasks\\Tasks\\Task18Logic\\obj\\",
+      "outputPath": "C:\\Users\\Технолог-1\\Desktop\\new\\Tasks\\Task18Logic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Технолог-1\\AppData\\Roaming\\NuGet\\NuGet.Config"
