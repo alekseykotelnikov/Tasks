@@ -1,8 +1,8 @@
 ﻿// Найти кубы чисел от 1 до N
-int numberN = 0;
+
 int[] GetCubeTab(int number)
 {
-    int[] array = new int[numberN + 1];
+    int[] array = new int[number + 1];
     for (int i = 0; i < array.Length; i++)
     {
         array[i] = i * i * i;
@@ -19,6 +19,8 @@ void PrintArray(int[] argarray)
     }
 }
 
+
+int numberN = 0;
 while (numberN == 0)
 {
     Console.Write("Введите предельное число от 1 ");
