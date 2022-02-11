@@ -5,15 +5,14 @@
 // если точки в 2D, то ось Z будет нулевой 
 // нет смысла вводить выбор пользователю между 2d и 3D, даже, если он полный банан
 
-double num = 0;
 double Coards(double arg)
 {
-    num = new Random().Next(1, 100);
-    return num;
+    arg = new Random().Next(1, 100);
+    return arg;
 }
 
 // Получаем значения для координат из рандома
-
+double num = 0;
 double x1 = Coards(num);
 double x2 = Coards(num);
 double y1 = Coards(num);
