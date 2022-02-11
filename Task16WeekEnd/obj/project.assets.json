@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\bulochka\\.nuget\\packages\\": {}
+    "C:\\Users\\Технолог-1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task16WeekEnd\\Task16WeekEnd.csproj",
+      "projectUniqueName": "C:\\Users\\Технолог-1\\Desktop\\new\\Tasks\\Task16WeekEnd\\Task16WeekEnd.csproj",
       "projectName": "Task16WeekEnd",
-      "projectPath": "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task16WeekEnd\\Task16WeekEnd.csproj",
-      "packagesPath": "C:\\Users\\bulochka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bulochka\\Desktop\\TasksHome\\Tasks\\Task16WeekEnd\\obj\\",
+      "projectPath": "C:\\Users\\Технолог-1\\Desktop\\new\\Tasks\\Task16WeekEnd\\Task16WeekEnd.csproj",
+      "packagesPath": "C:\\Users\\Технолог-1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Технолог-1\\Desktop\\new\\Tasks\\Task16WeekEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bulochka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Технолог-1\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
