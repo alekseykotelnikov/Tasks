@@ -4,11 +4,7 @@ void FillArray(int[] collection)
 {
     for (int i = 0; i < collection.Length; i++)
     {
-        collection[i] = new Random().Next(-11, 11);
-        if (collection[i] == 0)
-        {
-            collection[i] = new Random().Next(1, 11);
-        }
+        collection[i] = new Random().Next(-11, 13);
     }
 }
 
@@ -29,7 +25,14 @@ void PrintEvenNumbers(int[] collect)
         collect[count] = collect[count] * collect[count] * collect[count];
         if (collect[count] % 2 == 0)
         {
-            Console.WriteLine($"Число {n} в кубе = {collect[count]}");
+            if (collect[count] % 10 == 0)
+            {
+                Console.Write("");
+            }
+            else
+            {
+                Console.WriteLine($"Число {n} в кубе = {collect[count]}");
+            }
         }
         else
         {
