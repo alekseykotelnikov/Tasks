@@ -5,6 +5,10 @@ void FillArray(int[] collection)
     for (int i = 0; i < collection.Length; i++)
     {
         collection[i] = new Random().Next(-11, 11);
+        if (collection[i] == 0)
+        {
+            collection[i] = new Random().Next(1, 11);
+        }
     }
 }
 
