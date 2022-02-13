@@ -25,11 +25,6 @@ void PrintEvenNumbers(int[] collect)
         collect[count] = collect[count] * collect[count] * collect[count];
         if (collect[count] % 2 == 0)
         {
-            if (collect[count] % 10 == 0)
-            {
-                Console.Write("");
-            }
-            else
             {
                 Console.WriteLine($"Число {n} в кубе = {collect[count]}");
             }
