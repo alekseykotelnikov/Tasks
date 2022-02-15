@@ -21,12 +21,11 @@ void PrintEvenNumbers(int[] collect)
 {
     for (int count = 0; count < collect.Length; count++)
     {
-        int n = collect[count];// Вводим переменную для красивого тображения результата
-        collect[count] = collect[count] * collect[count] * collect[count];
-        if (collect[count] % 2 == 0)
+        int cube = collect[count] * collect[count] * collect[count];
+        if (cube % 2 == 0)
         {
             {
-                Console.WriteLine($"Число {n} в кубе = {collect[count]}");
+                Console.WriteLine($"Число {collect[count]} в кубе = {cube}");
             }
         }
         else
