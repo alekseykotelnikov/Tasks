@@ -20,19 +20,19 @@ void PrintArr(int[] arr)
     }
 }
 
-void OddEvenNumbers(int[]arr)
+void OddEvenNumbers(int[] arr)
 {
     int odd = 0;
     int even = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        if(arr[i] % 2 == 0)
+        if (arr[i] % 2 == 0)
         {
             even = even + 1;
         }
         else
         {
-            odd = odd +1;
+            odd = odd + 1;
         }
     }
     Console.WriteLine($"Количество четных чисел = {even}, количество нечетных чисел = {odd}");
