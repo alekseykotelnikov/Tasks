@@ -9,8 +9,8 @@ void PrintDiffMinMax(double[] arr)
         System.Console.WriteLine(arr[i]);
     }
     double difference = arr.Max() - arr.Min();
-    System.Console.WriteLine($"Минимальное значение массива {arr.Min()}, максимальное значение массива {arr.Max()}");
-    System.Console.WriteLine($"Разница между минимальным и максимальным значениями массива составляет {difference}");
+    System.Console.WriteLine($"Минимальный элемент массива {arr.Min()}, максимальный элемент массива {arr.Max()}");
+    System.Console.WriteLine($"Разница между минимальным и максимальным элементами массива составляет {difference}");
     System.Console.WriteLine();
 }
 
