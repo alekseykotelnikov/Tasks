@@ -2,6 +2,20 @@
 
 Console.Clear();
 
+int number = new Random().Next(1, 11);
+
+System.Console.WriteLine($"Количетсов элементов массива: {number}");
+
+double[] FillArray(int size)
+{
+    double[] array = new double[size];
+    for (int i = 0; i < size; i++)
+    {
+        array[i] = new Random().NextDouble() * 100;
+    }
+    return array;
+}
+
 void PrintDiffMinMax(double[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
@@ -15,7 +29,5 @@ void PrintDiffMinMax(double[] arr)
 }
 
 
-
-double[] arr = { 9.25, 10.65, 13.43, 2.94, 10.65, 11.15 };
-PrintDiffMinMax(arr);
+PrintDiffMinMax(FillArray(number));
 System.Console.WriteLine();
