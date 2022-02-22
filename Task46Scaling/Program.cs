@@ -1,6 +1,6 @@
 ﻿// Написать программу масштабирования фигуры
 Console.Clear();
-System.Console.WriteLine();
+Console.WriteLine();
 double[] FillArray()
 {
     double[] array = new double[8];
@@ -9,20 +9,17 @@ double[] FillArray()
         array[i] = Math.Ceiling(new Random().NextDouble() * 100);// Сокращаем до целого числа значение
 
     }
-    Console.WriteLine("Представлены следующие вершины фигуры:");
-    Console.WriteLine($" ({array[0]}, {array[1]}) ({array[2]}, {array[3]}) ({array[4]}, {array[5]}) ({array[6]}, {array[7]})");
     return array;
 }
 
-void Scaling(double[] arr, double k)
+double[] Scaling(double[] arr, double k)
 {
     double[] arr2 = new double[8];
     for (int j = 0; j < 8; j++)
     {
         arr2[j] = arr[j] * k;
     }
-    Console.WriteLine("После масштабирования вершины фигуры будут:");
-    Console.Write($" ({arr2[0]}, {arr2[1]}) ({arr2[2]}, {arr2[3]}) ({arr2[4]}, {arr2[5]}) ({arr2[6]}, {arr2[7]})");
+    return arr2;
 }
 
 double k = 0;
@@ -34,4 +31,9 @@ while (k <= 0)
 }
 Console.WriteLine($"Коэффициент масштабирования = {k}");
 double[] coord = FillArray();
-Scaling(coord, k);
+Console.WriteLine("Представлены следующие вершины фигуры:");
+Console.WriteLine($" ({coord[0]}, {coord[1]}) ({coord[2]}, {coord[3]}) ({coord[4]}, {coord[5]}) ({coord[6]}, {coord[7]})");
+double[] newCoord = Scaling(coord, k);
+Console.WriteLine("После масштабирования вершины фигуры будут:");
+Console.Write($" ({newCoord[0]}, {newCoord[1]}) ({newCoord[2]}, {newCoord[3]}) ({newCoord[4]}, {newCoord[5]}) ({newCoord[6]}, {newCoord[7]})");
+Console.WriteLine();
