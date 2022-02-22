@@ -1,6 +1,6 @@
 ﻿// Найти точку пересечения двух прямых заданных уравнением y = k1 * x + b1, y = k2 * x + b2, b1 k1 и b2 и k2 заданы
 Console.Clear();
-System.Console.WriteLine();
+Console.WriteLine();
 double GetNumber()
 {
     double number = new Random().Next(1, 10);
