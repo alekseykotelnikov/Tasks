@@ -1,6 +1,6 @@
 ﻿// Определить сколько чисел больше 0 введено с клавиатуры
 Console.Clear();
-System.Console.WriteLine();
+Console.WriteLine();
 
 int numberTry = 5;
 int count = 0;
