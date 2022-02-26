@@ -1,12 +1,13 @@
 ﻿// Написать программу масштабирования фигуры
 Console.Clear();
 Console.WriteLine();
+Random rand = new Random();
 double[] FillArray()
 {
     double[] array = new double[8];
     for (int i = 0; i < 8; i++)
     {
-        array[i] = Math.Ceiling(new Random().NextDouble() * 100);// Сокращаем до целого числа значение
+        array[i] = Math.Ceiling(rand.NextDouble() * 100);// Сокращаем до целого числа значение
 
     }
     return array;
