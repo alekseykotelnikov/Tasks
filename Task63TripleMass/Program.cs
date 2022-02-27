@@ -19,20 +19,6 @@ int[,,] TripleMass()
     }
     return array;
 }
-void PrintArray(int[,,] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            for (int k = 0; k < array.GetLength(1); k++)
-            {
-                Console.Write($" {array[i, j, k]} ");
-            }
-        }
-        Console.WriteLine();
-    }
-}
 void PrintOdd(int[,,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -41,13 +27,11 @@ void PrintOdd(int[,,] array)
         {
             for (int k = 0; k < array.GetLength(1); k++)
             {
-                Console.WriteLine($" i = {i}; j = {j}, k = {k} ");
+                Console.WriteLine($"Элемент с индексами [{i}, {j}, {k}] = {array[i, j, k]}");
             }
         }
     }
 }
 int[,,] matrix = TripleMass();
-Console.WriteLine("Задан трехмерный массив следующих элементов:");
-PrintArray(matrix);
 Console.WriteLine("Индексы трехмерного массива построчно:");
 PrintOdd(matrix);
