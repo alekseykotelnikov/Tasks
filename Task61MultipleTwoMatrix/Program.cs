@@ -1,15 +1,16 @@
 ﻿// Найти произведение двух матриц
+// Для нахождения произведения умножаем строки первой матрицы на столбцы второй
 Console.Clear();
 Console.WriteLine();
 Random rand = new Random();
 int[,] FillArray()
 {
-    int[,] array = new int[3, 3];
+    int[,] array = new int[2, 2];
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = rand.Next(1, 10);
+            array[i, j] = rand.Next(2, 10);
         }
     }
     return array;
@@ -27,12 +28,15 @@ void PrintArray(int[,] array)
 }
 int[,] MultipleTwoMatrix(int[,] firstArray, int[,] secondArray)
 {
-    int[,] array = new int[3, 3];
+    int[,] array = new int[2, 2];
     for (int i = 0; i < firstArray.GetLength(0); i++)
     {
-        for (int j = 0; j < secondArray.GetLength(1); j++)
+        for (int j = 0; j < secondArray.GetLength(0); j++)
         {
-            array[i, j] = firstArray[i, j] * secondArray[i, j];
+            for (int k = 0; k < secondArray.GetLength(1); k++)
+            {
+                array[i, j] += firstArray[i, k] * secondArray[k, j];
+            }
         }
     }
     return array;
