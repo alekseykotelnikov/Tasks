@@ -64,7 +64,14 @@ void PrintArray(int[,] array)
         {
             for (int j = 0; j < array.GetLength(1); j++)
             {
-                Console.Write($" {array[i, j]} ");
+                if (array[i, j] < 10)
+                {
+                    Console.Write($"  {array[i, j]} ");
+                }
+                else
+                {Console.Write($" {array[i, j]} ");
+
+                }
             }
             Console.WriteLine();
         }
