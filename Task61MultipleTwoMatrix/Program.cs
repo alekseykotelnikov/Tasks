@@ -42,10 +42,10 @@ int[,] MultipleTwoMatrix(int[,] firstArray, int[,] secondArray)
     return array;
 }
 int[,] firstMatrix = FillArray();
-Console.WriteLine("Задан первый двумерный массив следующих элементов:");
+Console.WriteLine("Задана первая матрица:");
 PrintArray(firstMatrix);
 int[,] secondMatrix = FillArray();
-Console.WriteLine("Задан второй двумерный массив следующих элементов:");
+Console.WriteLine("Задана вторая матрица:");
 PrintArray(secondMatrix);
 int[,] multipleMatrix = MultipleTwoMatrix(firstMatrix, secondMatrix);
 Console.WriteLine("Произведение двух матриц:");
