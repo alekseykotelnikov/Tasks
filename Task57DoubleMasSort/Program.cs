@@ -27,21 +27,21 @@ void PrintArray(int[,] array)
 }
 int[,] SortArray(int[,] array)
 {
-    for (int j = 0; j < array.GetLength(1); j++)
+    for (int j = 0; j < array.GetLength(0); j++)
     {
-        for (int i = 0; i < array.GetLength(0) - 1; i++)
+        for (int i = 0; i < array.GetLength(1); i++)
         {
-            int maxPosition = i;
-            for (int k = i + 1; k < array.GetLength(0); k++)
+            int maxPosition = j;
+            for (int k = j + 1; k < array.GetLength(1); k++)
             {
-                if (array[k, j] > array[maxPosition, j])
+                if (array[i, k] > array[i, maxPosition])
                 {
                     maxPosition = k;
                 }
             }
             int temporary = array[i, j];
-            array[i, j] = array[maxPosition, j];
-            array[maxPosition, j] = temporary;
+            array[i, j] = array[i, maxPosition];
+            array[i, maxPosition] = temporary;
         }
     }
     return array;
