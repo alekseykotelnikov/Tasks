@@ -14,4 +14,4 @@ int SumRec(int m, int n)
 int m = 1;
 int n = 5;
 int result = SumRec(m, n);
-Console.WriteLine($"Сумма натуральных чисел от {m} до {n}, это: {result}");
+Console.WriteLine($"Сумма натуральных элементов от {m} до {n}, это: {result}");
