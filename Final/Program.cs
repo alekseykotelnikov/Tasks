@@ -50,7 +50,7 @@ void PrintArray(string[] array)
     }
 }
 
-string[] firstArray = { "Sergey", ",", "thank", "you", "for", "teaching", "!" };
+string[] firstArray = { "Dear", "teacher",  ",", "thank", "you", "for", "the",  "training", "!" };
 string[] newArray = GetNewArray(firstArray);
 // string[] newArray = GetNewArray(firstArray, arraySize);
 Console.WriteLine("Задан следующий массив строк:");
